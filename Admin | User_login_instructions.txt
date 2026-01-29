@@ -1,0 +1,36 @@
+
+## 🧪 Testing Instructions
+
+### Test Scenario 1: Customer Renting
+1. Login as `john` / `john123`
+2. Add $200 to wallet
+3. Rent Vehicle ID 1 (Toyota Corolla) for 3 days
+4. Check rental status (Pending → Admin approval)
+
+### Test Scenario 2: Admin Approval
+1. Login as `admin` / `admin123`
+2. View pending rentals
+3. Approve rental #1
+4. Check profit increased by $90 (100% of $90)
+
+### Test Scenario 3: User Lists Vehicle
+1. Login as `jane` / `jane123`
+2. List vehicle (BMW X5, $85/day)
+3. Someone rents it for 2 days ($170)
+4. Admin approves → Jane earns $136 (80%)
+
+## 🔧 Technical Details
+- **Language**: Java
+- **Paradigm**: Object-Oriented Programming
+- **Storage**: In-memory (Collections)
+- **Patterns**: MVC, Singleton, Factory
+
+## 👨‍💻 Developer
+- **Name**: Your Name
+- **University**: Your University
+- **Course**: BSCS/BSIT
+- **Year**: Final Year Project 2024
+
+## 📞 Contact
+- **Email**: your.email@university.edu
+- **Submitted to**: Department of Computer Science
